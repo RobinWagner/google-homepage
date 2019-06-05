@@ -1,0 +1,135 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; 
+  font-size: 14px; 
+  font-style: normal;
+}
+
+html,body{
+  height: 100%;
+}
+
+body{
+  flex-direction: column;
+}
+
+.flexbox{
+  display: flex;  
+}
+nav.flexbox{
+  justify-content: flex-end;
+}
+nav.flexbox > *{
+  padding: 10px 20px 10px 0px;
+  line-height: 40px;
+  font-size: 13px;
+  color: inherit;
+}
+
+.material-icons{
+  vertical-align: middle;
+}
+
+nav.flexbox a[class="SignIn"]{
+  display: inline-block;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 3px;
+  padding: 0px 12px;
+  background-color:#4583ea;
+}
+form.flexbox{
+  flex-direction: column;
+  align-items: center;
+}
+
+#logo{
+  height: 205px;
+  width: 272px;
+  padding-top: 109px;
+}
+
+#search-box{
+  flex-direction: row;
+  margin-top: 2em;
+  width: 40%;
+  height: 44px;
+  border: 1px solid #dfe1e5;
+  border-radius: 2em; 
+  padding: 5px 8px 0px 20px;
+}
+#search-box:hover{
+  box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+}
+#search-box input{
+  flex: 100%;
+  border: 0; 
+  outline: none;
+}
+
+#speech-icon{
+  padding: 0px 8px;
+  display: flex;
+  cursor: pointer;
+}
+div#search_button{
+  padding-top: 18px;
+}
+div#search_button input{
+  color: #5F6368;
+  background-color: rgb(244,244,244);
+  border-radius: 4px;
+  height: 36px;
+  margin: 11px 4px;
+  padding: 0px 16px;
+  border-width: 1px;
+  /* line-height: 12px; */
+}
+div#search_button input:hover{
+  background-color: #f8f8f8;
+  border: 1px solid #c6c6c6;
+  color: #2f2f2f;
+  cursor: pointer;
+}
+
+#change-lang{
+  align-self: center;
+  margin-top: 30px;
+  flex: 1 0 auto;
+}
+#change-lang > a{
+  color: #1a0dab;
+}
+
+#footer{
+  flex-direction: column;
+  flex-shrink: 0;
+  background-color: #2f2f2f;
+}
+#footer > div{
+  padding-left: 27px;
+  background: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+  line-height: 40px;
+  color: rgba(0,0,0,.54);
+}
+a{
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+a:hover{
+  text-decoration: underline;
+}
+#footer a{
+  padding-right: 27px;
+  color: #5f6368;
+}
+#footer-link{
+  justify-content: space-between;
+}
+#option img{
+  width: 528px;
+  height: 68px;
+}
