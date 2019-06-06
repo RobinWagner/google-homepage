@@ -67,6 +67,16 @@ nav.flexbox a[class="SignIn"] {
   padding: 0px 12px;
 }
 
+#nav-first {
+  justify-content: flex-start;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 27px;
+}
+
 form.flexbox {
   align-items: center;
   flex-direction: column;
@@ -133,7 +143,7 @@ div#search_button input:hover {
   margin-top: 30px;
 }
 
-#change-lang > a {
+#change-language > a {
   color: #1a0dab;
 }
 
